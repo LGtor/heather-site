@@ -1,0 +1,478 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* { 
+	font-family: helvetica;
+	
+}
+
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+
+.wrapper { max-width: 1150px;
+	font-family: helvetica;
+	background: url(images/home-mainbg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+
+}
+
+
+/*^^^^^^^^^^^^^^ MAIN STYLES ^^^^^^^^^^^^^^^^^^^^^^^*/
+/*################ LEFT CONTENT ####################*/
+
+
+.contentleft { 
+	width: 37.4%;
+	margin-top: 6%;
+	margin-left: 1%;
+	float: left;
+
+
+}
+
+
+
+.nav ul { list-style-type: none;
+
+	padding: 0px 0px 0px 35px;
+	line-height: 50px;
+}
+
+
+.nav ul li a { 
+
+	text-decoration: none;
+	color: black;
+	font-size: 38px;
+}
+
+.contentleft .intro  {
+
+	
+	font-size: 19px;
+	padding: 0px 0px 0px 35px;
+	line-height: 25px;
+	
+}
+
+.contentleft .intro2 {
+	font-size: 15px;
+	padding: 0px 0px 0px 35px;
+	line-height: 25px;
+
+}
+
+
+/*^^^^^^^^^^^^^^^LEFT CONTENT ^^^^^^^^^^^^^^^^^^^^^*/
+/*############### BLOG TRIANGLE ###################*/
+
+
+
+.blog img { 
+	margin-top: 24%;
+	margin-left: 28%;
+	max-width: 100%;
+
+}
+
+/*^^^^^^^^^^^^^^^^^BLOG TRIANGLE^^^^^^^^^^^^^^^^^^^^^^^*/
+/*################### PIE ##############################*/
+
+.piemain {
+	
+	background: url(images/bg-stripe.png);
+	width: 100%;
+	clear:both;
+	padding-bottom: 40px;
+
+}
+
+.pie {  width:28%;
+	/*	float: left;*/
+	margin:2% 0px 0px 0px;
+	float: left;
+	/*list-style-type:none;*/
+
+}
+
+.list1 { display: inline-block;
+
+	width: 60%;
+	padding: 0px 0px 0px 0px;
+	margin: 12% 7% 0 0;
+	float:right;
+
+
+
+}
+
+.list1 h4 { margin: 0;
+	padding: 0;
+}
+
+
+.list1 li { width: 50%;
+	float: left;
+	font-size: 15px;
+
+	
+	list-style-image: url(images/icon-nav-active.png);
+}
+
+.list1 .last { margin-left: 50%;}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^ PIE ^^^^^^^^^^^^^^^^^^^^^^*/
+/*################### FOOTER #######################*/
+
+
+.footer {
+	max-width: 100%;
+	background: url(images/bg-footer.png);
+	height: 300px;
+
+}
+
+.footer img {  
+	z-index: 1;
+	position: absolute;
+	max-width: 100%;
+	} s
+
+	.footer p { display: block;
+
+
+	}
+	.footer .email { 
+		
+	}
+
+
+
+
+
+
+
+	/*^^^^^^^^^^^^^^^^^^^^^^^^1147 Break Point^^^^^^^^^^^^^^^*/
+	@media (max-width: 1147px) {
+
+		.blog img { 
+			margin: 0px;
+			position: relative;
+			top: 300px;
+			right: -300px;
+		}
+		
+
+	}
+
+
+	/*^^^^^^^^^^^^^^^^^^^^^^^ 940 BREAK POINT ^^^^^^^^^^^^^^*/
+	@media (max-width: 940px) {
+
+		.wrapper { background: url(images/home-mainbg.jpg);
+			background-size: 75%;
+			background-repeat: no-repeat;
+			background-position: top right;
+
+
+		}
+
+		.blog {  
+			display: none;	
+			
+		}
+
+		.blog img { 
+
+			
+			position: relative;
+			top: -590px;
+			right: -590px;
+			padding: 0px;
+			margin: 0px 0px;
+
+
+		}
+
+		
+
+
+		.piemain .list1 li {
+			font-size: 12px;
+
+		}
+
+
+	}
+
+	/*^^^^^^^^^^^^^^^^^^^^800 BREAK POINT ^^^^^^^^^^^^^^^^^^^^^*/
+
+	@media (max-width: 800px) {
+
+		
+
+
+		.blog { margin: 0px;
+
+		}
+
+		.blog img {  
+			padding: 0px;
+
+		}
+
+	}
+
+
+	
+
+	/*^^^^^^^^^^^^^^^^^^^^^^^^767 BREAK POINT ^^^^^^^^^^^^^^^*/
+	@media (max-width: 767px) {
+
+
+		.wrapper { background: url(images/home-mainbg.jpg);
+			background-size: 75%;
+			background-repeat: no-repeat;
+			background-position: top right;
+
+
+		}
+
+		.contentleft {  
+
+			width: 75%;
+
+		}
+
+		.blog {  
+			
+			display: none;		}
+
+			.blog img {  
+				display: none;
+
+			}
+
+			.contentleft .intro {  
+				display: inline-block;
+				width: 300px;
+				margin: 0px 0px;
+				font-size: 16px;
+
+
+			}
+
+
+
+			.intro p { 
+				margin: 0;
+
+			}
+
+			.contentleft .intro2 {  
+				width: 300px;
+				font-size: 12px;
+
+			}
+
+
+			.piemain img {
+
+
+
+			}
+
+			.piemain .list1 {
+
+				width: 80%;
+			}
+
+			.piemain .list1 li {
+				font-size: 12px;
+
+			}
+
+
+
+
+		}
+
+		/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 522 BREAK POINT ^^^^^^^^*/
+		@media (max-width: 522px) {
+
+			.wrapper { background: url(images/home-mainbg.jpg);
+				background-size: 45%;
+				background-repeat: no-repeat;
+				background-position: top left;
+
+
+			}
+
+			.contentleft {  
+
+				width: 480px;
+
+			}
+
+
+			.contentleft h1 { 
+
+				padding: 0 0 0 52px;
+				margin-bottom: 0;
+			}
+
+
+			.nav ul { line-height: 40px;
+				margin: 0 75px 5px 0;
+				padding: 0;
+
+
+
+			} 
+
+
+			.nav ul li {  
+				text-align: center;
+				padding: 5px;
+				margin: 0;
+			}
+
+
+			.nav ul li a {  
+				text-decoration: none;
+				color: black;
+				font-size: 30px;
+				line-height: 50px;
+				border: 2px solid #caf3f1;
+				border-radius: 5px;
+				background-color: #94f3f0;
+				padding: 2px;
+				margin: 20 0 0 0 ;
+
+			}
+
+
+
+			.contentleft .intro {  
+
+
+				display: inline-block;				
+				font-size: 14px;
+				width: 200px;
+				height: 200px;
+				margin: 0 0 0 102px;
+				padding: 0px;
+				text-align: center;
+			}
+
+			.contentleft .intro p {
+				margin: 0px;
+
+
+			}
+
+			.contentleft .intro2 {
+				font-size: 14px;
+				/*display: inline-block;*/
+				width: 200px;
+				height:200px;
+				margin: 0 0 0 102px;
+				padding: 0px;
+				text-align: center;
+			}
+
+			.contentleft .intro2 p { 
+				margin: 0px;
+				padding: 0px;
+			}
+
+
+			.contentleft h3 {
+
+				display: inline-block;
+				margin-left: 75px;
+				background: #94f3f0;
+				border: 2px solid #caf3f1;
+				border-radius: 10px;
+				padding: 8px;
+
+			}
+
+
+			.blog { display: none;
+
+			}
+
+
+
+			.piemain { 
+
+				background: none;
+			}
+
+			.piemain img {
+
+				display: none;
+			}
+
+			.piemain .list1 { 
+				display: none;
+
+			}
+			
+			.footer { 
+
+				background: none;
+
+			}
+
+			.footer img { 
+				display: none;
+			}
+
+			.footer .twitter {
+				display: inline-block;
+				text-align: center;
+				padding: 7px;
+				margin-left: 90px;
+				margin-bottom: 50px;
+				background: #94f3f0;
+				border: 2px solid #caf3f1;
+				border-radius: 10px;
+				font-weight: 800;
+
+			}
+
+			.footer .twitter a { 
+				text-decoration: none;
+
+				color: black;
+			}
+
+			.footer .email { 
+				display: inline-block;
+				text-align: center;
+				padding: 7px;
+				margin-left: 100px;
+				background: #94f3f0;
+				border: 2px solid #caf3f1;
+				border-radius: 10px;
+				font-weight: 800;
+
+
+			}
+
+			.footer .email a { 
+				text-decoration: none;
+				color: black;
+
+			}
+
+
+		}
